@@ -1,0 +1,47 @@
+/* src/styles/styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background for a sleek look */
+    color: #f1c40f; /* Gold color for text */
+    background-image: url('../assets/image/ironman-background.jpg'); /* Correct path to your image */
+    background-size: 40%; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    height: 100vh; /* Full viewport height */
+}
+
+header {
+    background-color: rgba(192, 57, 43, 0.9); /* Semi-transparent Iron Man red */
+    padding: 20px;
+    text-align: center;
+}
+
+nav button {
+    background-color: #e74c3c; /* Lighter red for buttons */
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+main {
+    padding: 30px;
+}
+
+footer {
+    text-align:center; 
+    padding :20px; 
+    color:#f1c40f; 
+}
